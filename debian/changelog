@@ -1,3 +1,9 @@
+python-idna (2.0-3~bpo8+1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 21 Jul 2017 18:22:13 +0000
+
 python-idna (2.0-3~bpo8+1) jessie-backports; urgency=medium
 
   * Rebuild for jessie-backports.
