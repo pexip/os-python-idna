@@ -14,9 +14,9 @@ Build-Depends:
  python3-setuptools,
  pypy-setuptools,
 Homepage: https://github.com/kjd/idna
-Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-idna/trunk/
-Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-idna/trunk/
-Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/python-idna.git
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/python-idna.git
+Standards-Version: 4.0.0
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.3
 XS-Pexip-Upstream: http://ftp.debian.org/debian/ buster

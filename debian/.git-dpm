@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+86ac8bac74cc315d26b8894308c6af0a13ce1d12
+86ac8bac74cc315d26b8894308c6af0a13ce1d12
+86ac8bac74cc315d26b8894308c6af0a13ce1d12
+86ac8bac74cc315d26b8894308c6af0a13ce1d12
+python-idna_2.5.orig.tar.gz
+499531b72bf0440ded6ce7f079a1f979270ae2d0
+130211
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"

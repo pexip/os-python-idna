@@ -3,7 +3,7 @@ Upstream-Name: idna
 Source: https://github.com/kjd/idna
 
 Files: *
-Copyright: 2013-2015 Kim Davies
+Copyright: 2013-2017 Kim Davies
 License: BSD-3-clause
 
 Files: idna/codec.py
