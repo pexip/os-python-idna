@@ -19,7 +19,7 @@ Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-idna/trunk/
 Standards-Version: 3.9.6
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.3
-XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ buster
 
 Package: python-idna
 Architecture: all
