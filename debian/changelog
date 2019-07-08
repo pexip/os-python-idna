@@ -1,3 +1,9 @@
+python-idna (2.5-1pexip2) pexip; urgency=medium
+
+  * Python3
+
+ -- Carl Chipperfield <carl@pexip.com>  Sat, 22 Jun 2019 00:18:15 +0000
+
 python-idna (2.5-1pexip1) pexip; urgency=medium
 
   * Migrate to Buster
