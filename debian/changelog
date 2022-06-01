@@ -1,3 +1,64 @@
+python-idna (2.10-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Sergio Durigan Junior ]
+  * New upstream version 2.10.
+  * d/tests/python3: Use '-s' instead of '-i' when invoking py3versions.
+    This fixes the lintian warning
+    runtime-test-file-uses-installed-python-versions.
+
+ -- Sergio Durigan Junior <sergiodj@debian.org>  Fri, 10 Jul 2020 14:19:14 -0400
+
+python-idna (2.9-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 02 May 2020 13:35:55 -0400
+
+python-idna (2.8-2) unstable; urgency=medium
+
+  * Drop python2 support; Closes: #937826
+  * mark python3-idna as Multi-Arch: foreign; Closes: #921245
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 04 Apr 2020 20:20:22 -0400
+
+python-idna (2.8-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Scott Kitterman ]
+  * New upstream release
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 14 Mar 2020 01:40:52 -0400
+
+python-idna (2.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/tests: Use AUTOPKGTEST_TMP instead of ADTTMP
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+  * Rename d/tests/control.autodep8 to d/tests/control.
+  * Use debhelper-compat instead of debian/compat.
+  * Drop PyPy support
+  * Bump debhelper compat level to 12
+  * Bump standards version to 4.4.0 (no changes)
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 23 Jul 2019 16:40:00 +0200
+
 python-idna (2.6-1pexip2) pexip; urgency=medium
 
   * Rebuild in buster environment
