@@ -1,8 +1,7 @@
 HISTORY.rst
-LICENSE.rst
+LICENSE.md
 MANIFEST.in
 README.rst
-setup.cfg
 setup.py
 idna/__init__.py
 idna/codec.py
@@ -11,12 +10,13 @@ idna/core.py
 idna/idnadata.py
 idna/intranges.py
 idna/package_data.py
+idna/py.typed
 idna/uts46data.py
 idna.egg-info/PKG-INFO
 idna.egg-info/SOURCES.txt
 idna.egg-info/dependency_links.txt
 idna.egg-info/top_level.txt
-tests/IdnaTest.txt.gz
+tests/IdnaTestV2.txt
 tests/__init__.py
 tests/test_idna.py
 tests/test_idna_codec.py
@@ -24,5 +24,9 @@ tests/test_idna_compat.py
 tests/test_idna_other.py
 tests/test_idna_uts46.py
 tests/test_intranges.py
+tools/12.txt
+tools/13.txt
+tools/14.txt
 tools/idna-data
+tools/idnadata.py
 tools/intranges.py
