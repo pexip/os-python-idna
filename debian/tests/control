@@ -1,3 +1,5 @@
 Tests: python3
-Depends: python3-idna, python3-all
+Depends:
+ python3-all,
+ python3-idna,
 Restrictions: allow-stderr
