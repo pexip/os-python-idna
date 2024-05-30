@@ -1,3 +1,12 @@
+python-idna (3.3-1+deb12u1) bookworm; urgency=high
+
+  * Non-maintainer upload.
+  * Fix CVE-2024-3651: Specially crafted inputs to idna.encode() can consume
+    significant resources, which may lead to denial of service.
+    (Closes: #1069127)
+
+ -- Guilhem Moulin <guilhem@debian.org>  Thu, 30 May 2024 14:31:22 +0200
+
 python-idna (3.3-1) unstable; urgency=medium
 
   * New upstream release.
