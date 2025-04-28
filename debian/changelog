@@ -1,3 +1,55 @@
+python-idna (3.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * No-change rebuild for unstable.
+
+ -- Santiago Ruano Rincón <santiagorr@riseup.net>  Thu, 06 Feb 2025 10:51:11 -0300
+
+python-idna (3.10-1~exp1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream version 3.10
+  * Refresh debian/patches/fix-import.patch
+
+ -- Santiago Ruano Rincón <santiagorr@riseup.net>  Mon, 03 Feb 2025 12:35:40 -0300
+
+python-idna (3.8-2) unstable; urgency=medium
+
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 19 Sep 2024 16:36:03 +0200
+
+python-idna (3.8-1) experimental; urgency=medium
+
+  * Switch d/watch to mode=git.
+  * New upstream release.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 09 Sep 2024 10:14:54 +0200
+
+python-idna (3.6-2) unstable; urgency=medium
+
+  * Removed useless python3-poetry-core b-depends.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 12 Feb 2024 17:44:12 +0100
+
+python-idna (3.6-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add build-depends on flit, pybuild-plugin-pyproject and python3-poetry-core
+    as upstream switched to pyproject.
+  * Do not cd to temp folder when running autopkgtest and set PYTHONPATH.
+  * Add patch to fix test import.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 12 Feb 2024 15:56:58 +0100
+
+python-idna (3.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Update standards version to 4.6.1, no changes needed.
+  * Remove retired uploader.
+
+ -- Bastian Germann <bage@debian.org>  Thu, 13 Jul 2023 15:54:23 +0200
+
 python-idna (3.3-1+pexip24u4+deb12u1) pexip; urgency=medium
 
   * New upstream release
@@ -9,15 +61,6 @@ python-idna (3.3-1+pexip24u3) pexip-bookworm; urgency=medium
   * New versioning scheme
 
  -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:22:36 +0000
-
-python-idna (3.3-1+deb12u1) bookworm; urgency=high
-
-  * Non-maintainer upload.
-  * Fix CVE-2024-3651: Specially crafted inputs to idna.encode() can consume
-    significant resources, which may lead to denial of service.
-    (Closes: #1069127)
-
- -- Guilhem Moulin <guilhem@debian.org>  Thu, 30 May 2024 14:31:22 +0200
 
 python-idna (3.3-1pexip2) pexip-bookworm; urgency=medium
 

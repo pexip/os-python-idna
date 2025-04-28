@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-SRC="$PWD"
-cd "$AUTOPKGTEST_TMP"
 for py in $(py3versions -vs) ; do
-  python$py -m unittest discover -s "${SRC}/tests" ;
+  PYTHONPATH=. python$py -m unittest discover -v tests ;
 done

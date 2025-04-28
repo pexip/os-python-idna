@@ -1,0 +1,21 @@
+Description: Fix import
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: no
+Last-Update: 2025-02-02
+
+Index: python-idna/tests/test_idna_codec.py
+===================================================================
+--- python-idna.orig/tests/test_idna_codec.py
++++ python-idna/tests/test_idna_codec.py
+@@ -11,7 +11,10 @@ CODEC_NAME = "idna2008"
+ 
+ class IDNACodecTests(unittest.TestCase):
+     def setUp(self):
+-        from . import test_idna
++        try:
++            from . import test_idna
++        except ImportError:
++            from tests import test_idna
+ 
+         self.idnatests = test_idna.IDNATests()
+         self.idnatests.setUp()
